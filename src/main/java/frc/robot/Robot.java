@@ -9,7 +9,7 @@
 package frc.robot;
 
 //import edu.wpi.first.wpilibj.CameraServer;
-import edu.wpi.first.wpilibj.IterativeRobot;
+import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.Scheduler;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
@@ -33,7 +33,7 @@ import frc.trajectories.MotionProfileRunner;
  * creating this project, you must also update the build.properties file in the
  * project.
  */
-public class Robot extends IterativeRobot {
+public class Robot extends TimedRobot {
 	public static final DriveTrainPID driveTrain = new DriveTrainPID();
 	public static OI oi;
 	//public static CameraServer cam;
